@@ -306,6 +306,11 @@ a {
     }
    }
 
+.sociallogos {
+  height: 30px;
+  width: 30px;
+}
+
    .sun {
     -webkit-animation: 6s color-change infinite alternate linear;
             animation: 6s color-change infinite alternate linear;
