@@ -1,5 +1,5 @@
-<!DOCTYPE hmtl>
-<html>
+<!DOCTYPE html>
+<html lang="en">
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -51,12 +51,12 @@
         <p class="center">* denotes a required field</p>
             <form action="#" method="post" id="contact-form">
                 <label class="form-label" for="name">Your Name:*</label>
-                <input type="name" id="name" name="name" required>
+                <input type="text" id="name" name="name" required>
                 <br><br>
                 <label class="form-label" for="email">Email Address:*</label>
                 <input type="email" id="email" name="email" required><br><br>
                 <label class="form-label" for="phone">Phone Number: </label>
-                <input type="tel" id="phone" name="phone" pattern="/d*" maxlength="12" minlength="11" required inputmode="numeric"> 
+                <input type="tel" id="phone" name="phone" pattern="/d*" maxlength="12" minlength="11" required> 
                 <br><br>
                 <label class="form-label" for="message">Your Message:*</label>
                 <textarea id="message" name="message" rows="4" cols="50" placeholder="Write your message here. (Max 240 characters)" maxlength="240" required></textarea><br><br>
@@ -65,10 +65,10 @@
             <footer class="page_footer">
                 <p>Find me on</p>
                 <div class="socialmedia">
-                <a href="https://github.com/davidrmcintyre" target="_blank"><img src="img/211904_social_github_icon.svg" alt="Github" height="30px" width="30px"></a>
-                <a href="https://twitter.com/davidrobertmci" target="_blank"> <img src="img/5279123_tweet_twitter_twitter logo_icon.svg" alt="Twitter" height="30px" width="30px"></a>
-                <a href="https://www.linkedin.com/in/david-mcintyre-657066251/" target="_blank"> <img src="img/5305157_connection_linkedin_network_linkedin logo_icon.svg" alt="LinkedIn" height ="30px" width="30px"></a>
-                </div>
+                  <a href="https://github.com/davidrmcintyre" target="_blank"><img src="img/211904_social_github_icon.svg" alt="Github" class="sociallogos"></a>
+                  <a href="https://twitter.com/davidrobertmci" target="_blank"><img src="img/5279123_tweet_twitter_twitter_logo_icon.svg" alt="Twitter" class="sociallogos"></a>
+                  <a href="https://www.linkedin.com/in/david-mcintyre-657066251/" target="_blank"><img src="img/5305157_connection_linkedin_network_linkedin_logo_icon.svg" alt="LinkedIn" class="sociallogos"></a>
+                  </div>
             </footer>
         <script src="js/tota11y.min.js"></script>
     </body>
