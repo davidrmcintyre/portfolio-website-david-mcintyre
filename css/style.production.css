@@ -139,6 +139,14 @@ h1 {
 
 }
 
+h2 {
+  font-weight: 400;
+  font-family: 'Nunito', sans-serif;
+  display: inline;
+  float: left;
+  text-shadow: 1px 1px 1px #a9a9a9;
+}
+
 .center {
   text-align: center;
 }
