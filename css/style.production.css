@@ -294,8 +294,8 @@ a {
 }
 
 .project-image {
-  height: 15%;
-  width: 15%;
+  height: 10%;
+  width: 10%;
 }
 
 .project-container {
@@ -457,4 +457,4 @@ a {
       font-size: 22px;
     }
 }
-   }
+   
